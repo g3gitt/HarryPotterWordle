@@ -8,5 +8,5 @@ I just wanna do it better someday.
 - Clone this repository
 - Open the project in your C++ compiler
 - Build and run the game
-- Guess a 5-letter word
+- Guess a name
 - Get feedback and try again!

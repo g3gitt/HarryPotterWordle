@@ -83,8 +83,8 @@ int main() {
 			updated[i] = '_';
 		}
 
-		std::cout << "Guess a five letter word: ";
-		std::cout << target<<std::endl;
+		std::cout << "Guess a name: ";
+		std::cout << target<<std::endl; //for testing reference
 		std::string guess;
 		std::getline(std::cin, guess);
 		for (auto& c : guess) {
@@ -92,7 +92,7 @@ int main() {
 		}
 		
 		if (!vector_contains_word(five_words, guess)) {
-			std::cout << guess << "?? That’s not a name found in the magical world! You're getting expelled soon" << std::endl;
+			std::cout << guess << "?? Thatâ€™s not a name found in the magical world! You're getting expelled soon" << std::endl;
 			std::cout << std::endl;
 			continue;
 		}
@@ -105,8 +105,8 @@ int main() {
 		}
 		else {
 			std::cout << "Your score is " << score << std::endl;
-			std::cout<<"Correct letters at correct position : " << std::endl;
-			std::cout<<updated << " Correct letters at Incorrect Position: " << letter << std::endl;
+			std::cout<<"Correct letters at correct position : " <<<updated << std::endl;
+			std::cout< " Correct letters at Incorrect Position: " << letter << std::endl;
 			std::cout << std::endl;
 		
 			continue;

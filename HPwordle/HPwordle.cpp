@@ -105,8 +105,8 @@ int main() {
 		}
 		else {
 			std::cout << "Your score is " << score << std::endl;
-			std::cout<<"Correct letters at correct position : " <<<updated << std::endl;
-			std::cout< " Correct letters at Incorrect Position: " << letter << std::endl;
+			std::cout<<"Correct letters at correct position : " <<updated << std::endl;
+			std::cout<< " Correct letters at Incorrect Position: " << letter << std::endl;
 			std::cout << std::endl;
 		
 			continue;
